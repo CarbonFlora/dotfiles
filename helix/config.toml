@@ -1,0 +1,27 @@
+theme = "ayu_dark"
+
+[editor]
+bufferline = "always"
+mouse = false
+
+[editor.lsp]
+display-inlay-hints = true
+display-messages = true
+
+[editor.soft-wrap]
+enable = true
+wrap-at-text-width = true
+
+# Window Mode
+[keys.normal.space.w]
+v = "hsplit"
+C-v = "hsplit"
+s = "vsplit"
+C-s = "vsplit"
+
+# Window Mode 
+[keys.normal.C-w]
+v = "hsplit"
+C-v = "hsplit"
+s = "vsplit"
+C-s = "vsplit"
